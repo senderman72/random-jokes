@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body{
+    background-color: rgb(83, 94, 99);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgb(206, 196, 192);
+    border-radius: 50px;
+
+    
+
+    width: 600px;
+    height: 500px;
+   
+    
+    box-shadow: 30px 30px 30px rgb(198, 178, 170);
+    background-color: rgb(234, 219, 212);
+
+    margin: 200px;
+}
+
+
+
+
+.yo-mama {
+    font-family: fantasy;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 35px;
+
+    
+    
+    margin: 25px;
+
+    color: rgb(118, 119, 119);
+}
+
+#setup {
+    text-align: center;
+}
+
+.the-punchline {
+color: rgb(118, 119, 119);
+   margin: 25px 0px 50px 0px;
+   font-size: 25px;
+   font-style: oblique;
+   font-family: monospace; 
+
+   padding-left: 10px;
+    
+}
+
+button{
+    width: 25vh;
+    height: 25px;
+
+    border-radius: 50px;
+    border: none;
+
+    color: rgb(117, 126, 126);
+   background-color: rgb(234, 219, 212);
+
+   font-size: 15px;
+   font-weight:bold;
+   font-style: italic;
+   font-family:'Courier New', Courier, monospace;
+
+   cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(83, 94, 99);
+    border: 1px solid black;
+    border-radius: 50px;
+}
